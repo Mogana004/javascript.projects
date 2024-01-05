@@ -1,0 +1,28 @@
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size :50px;
+
+}
+
+.bg-container {
+    background-color: #f1f5f8;
+    height: 100vh;
+  }
+  
+.button {
+    background-color: #f1f5f8;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 7px;
+    margin: 8px;
+    align-items:center;
+    padding: 5px;
+    
+  }
+  .counter-heading {
+    font-family: "Roboto";
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+  }
