@@ -1,23 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <div class="bg-container text-center d-flex flex-column justify-content-center">
-        <h1 class="counter-heading">Counter</h1>
-        <label id="countLabel">0</label><br>
-        <div>
-            <button onClick="onDecrement()" class="button">DECREASE</button>
-            <button onClick="onReset()" class="button">RESET</button>
-            <button onClick="onIncrement()" class="button">INCREASE</button>
-        </div>
-        <script src="proj.js"></script>
+    <p > Enter Your Name</p>
+    <input type="text" id="inputElement"/>
+    <p>Enter Your Password</p>
+    <input type="Password"/>
+    <div>
+        <button onclick="signIn()">Sign In </button>
     </div>
-    
+    <p id="signInText"></p>
+    <script src="input.js"></script>
 </body>
 </html>
